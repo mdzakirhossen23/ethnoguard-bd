@@ -1,0 +1,346 @@
+[
+  {
+    "id": "neem",
+    "name": "Neem",
+    "bn": "নিম",
+    "scientific": "Azadirachta indica",
+    "icon": "🌿",
+    "kind": "rct",
+    "focus": "Plaque and gingivitis outcomes in a neem mouthrinse trial.",
+    "focusBn": "নিমের মাউথরিন্স নিয়ে দাঁতের প্লাক ও মাড়ির প্রদাহের গবেষণা।",
+    "finding": "A 2011 trial assigned 45 people with gingivitis to neem rinse, chlorhexidine or saline. The authors reported improved plaque and gingival indices for neem versus saline over 21 days [N1].",
+    "findingBn": "২০১১ সালের গবেষণায় মাড়ির প্রদাহ থাকা ৪৫ জনকে নিমের মাউথরিন্স, ক্লোরহেক্সিডিন বা স্যালাইন দলে ভাগ করা হয়। ২১ দিনে নিমের দলে স্যালাইনের তুলনায় প্লাক ও মাড়ির প্রদাহের সূচকে উন্নতি জানিয়েছে গবেষণাটি [N1]।",
+    "limitations": "Small, short trial of one rinse alongside routine oral hygiene. It does not establish equivalence, long-term safety or benefits of eating neem, treating fever or skin conditions.",
+    "limitationsBn": "ছোট ও স্বল্পমেয়াদি গবেষণা; নিয়মিত মুখ পরিষ্কারের পাশাপাশি নির্দিষ্ট মাউথরিন্স পরীক্ষা করা হয়েছে। এটি সমতুল্য কার্যকারিতা, দীর্ঘমেয়াদি নিরাপত্তা, নিম খাওয়া বা জ্বর ও ত্বকের চিকিৎসা প্রতিষ্ঠা করে না।",
+    "study": {
+      "design": "Double-blind randomized controlled trial",
+      "participants": 45,
+      "duration": "21-day reported outcomes",
+      "year": 2011,
+      "review_scope": "PubMed abstract; not full risk-of-bias assessment"
+    },
+    "sources": [
+      {
+        "id": "N1",
+        "title": "Chatterjee et al. (2011) — neem mouthrinse trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22368367/",
+        "type": "Primary study",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G1",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=K57C&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Azadirachta indica",
+      "taxon_key": "K57C",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Azadirachta indica A.Juss.",
+      "match_type": "EXACT",
+      "count": 27,
+      "georeferenced_count": 21,
+      "retrieved_at": "2026-11-02T15:09:22.538Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=K57C&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=K57C&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Azadirachta%20indica&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=K57C&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "bn": "হলুদ",
+    "scientific": "Curcuma longa",
+    "icon": "🟡",
+    "kind": "rct",
+    "focus": "Knee osteoarthritis: extract-specific pain outcomes.",
+    "focusBn": "হাঁটুর অস্টিওআর্থ্রাইটিসে নির্দিষ্ট নির্যাসের ব্যথার ফলাফল।",
+    "finding": "A 2020 placebo-controlled trial in 70 participants reported a 9.1 mm greater improvement in knee-pain VAS with the studied extract at 12 weeks (95% CI 0.4–17.8 mm). MRI effusion-synovitis did not improve [T1]. WOMAC pain and cartilage composition were also measured; the former improved and the latter did not [T1].",
+    "findingBn": "২০২০ সালের প্লাসিবো-নিয়ন্ত্রিত গবেষণায় ৭০ জনের মধ্যে নির্দিষ্ট নির্যাসে ১২ সপ্তাহে হাঁটুর ব্যথার VAS স্কোরে প্লাসিবোর তুলনায় ৯.১ মিমি বেশি উন্নতি হয় (৯৫% আস্থার সীমা ০.৪–১৭.৮ মিমি)। MRI-তে তরল ও প্রদাহের পরিমাপে উন্নতি হয়নি [T1]। WOMAC ব্যথা ও তরুণাস্থির গঠনও মাপা হয়; প্রথমটিতে উন্নতি হয়, দ্বিতীয়টিতে হয়নি [T1]।",
+    "limitations": "Single-centre, small trial of a specific extract; not proof for culinary turmeric or other conditions. NCCIH says definitive health-benefit conclusions remain unavailable and reports liver-injury concerns with some enhanced-absorption products [T2].",
+    "limitationsBn": "একটি কেন্দ্রের ছোট গবেষণা ও নির্দিষ্ট নির্যাস; রান্নার হলুদ বা অন্য রোগের ক্ষেত্রে প্রমাণ নয়। NCCIH নিশ্চিত স্বাস্থ্যসুবিধার সিদ্ধান্তের সীমাবদ্ধতা এবং বেশি শোষণযোগ্য কিছু পণ্যে যকৃতের ক্ষতির উদ্বেগ জানিয়েছে [T2]।",
+    "study": {
+      "design": "Randomized double-blind placebo-controlled trial",
+      "participants": 70,
+      "duration": "12 weeks",
+      "year": 2020,
+      "review_scope": "PubMed abstract plus NCCIH overview; no independent meta-analysis"
+    },
+    "sources": [
+      {
+        "id": "T1",
+        "title": "Wang et al. (2020) — turmeric extract and knee osteoarthritis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32926799/",
+        "type": "Primary study",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "T2",
+        "title": "NCCIH — turmeric evidence and safety overview",
+        "url": "https://www.nccih.nih.gov/health/turmeric",
+        "type": "Government overview",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G2",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=32K27&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Curcuma longa",
+      "taxon_key": "32K27",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Curcuma longa L.",
+      "match_type": "EXACT",
+      "count": 16,
+      "georeferenced_count": 7,
+      "retrieved_at": "2026-11-02T15:09:24.066Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=32K27&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=32K27&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Curcuma%20longa&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=32K27&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  },
+  {
+    "id": "tulsi",
+    "name": "Holy basil",
+    "bn": "তুলসী",
+    "scientific": "Ocimum tenuiflorum",
+    "icon": "🍃",
+    "kind": "rct",
+    "focus": "Stress and sleep measures with a standardized extract.",
+    "focusBn": "মানসম্মত নির্যাসে মানসিক চাপ ও ঘুমের পরিমাপ।",
+    "finding": "A 2022 randomized placebo-controlled trial enrolled 100 stressed adults for 8 weeks. The standardized extract group reported greater improvements in perceived stress and insomnia scores than placebo [H1].",
+    "findingBn": "২০২২ সালের প্লাসিবো-নিয়ন্ত্রিত গবেষণায় মানসিক চাপ থাকা ১০০ জন প্রাপ্তবয়স্ককে ৮ সপ্তাহ পর্যবেক্ষণ করা হয়। নির্দিষ্ট মানসম্মত নির্যাসের দলে চাপ ও অনিদ্রার স্কোরে বেশি উন্নতি পাওয়া যায় [H1]।",
+    "limitations": "Product-specific, short-term trial in selected adults, with commercial funding disclosed in the paper. Results cannot be generalized to home infusions, all cultivars, all patients or long-term safety.",
+    "limitationsBn": "নির্বাচিত প্রাপ্তবয়স্কদের ওপর নির্দিষ্ট পণ্যের স্বল্পমেয়াদি গবেষণা; নিবন্ধে বাণিজ্যিক অর্থায়নের তথ্য আছে। ঘরোয়া পানীয়, সব জাত, সব রোগী বা দীর্ঘমেয়াদি নিরাপত্তায় ফল প্রযোজ্য ধরে নেওয়া যাবে না।",
+    "study": {
+      "design": "Randomized double-blind placebo-controlled trial",
+      "participants": 100,
+      "duration": "8 weeks",
+      "year": 2022,
+      "review_scope": "Published abstract and article; not a systematic review"
+    },
+    "sources": [
+      {
+        "id": "H1",
+        "title": "Lopresti et al. (2022) — holy basil extract, stress and sleep",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9524226/",
+        "type": "Primary study",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G3",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=48GKB&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Ocimum tenuiflorum",
+      "taxon_key": "48GKB",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Ocimum tenuiflorum L.",
+      "match_type": "EXACT",
+      "count": 23,
+      "georeferenced_count": 17,
+      "retrieved_at": "2026-11-02T15:09:25.281Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=48GKB&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=48GKB&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Ocimum%20tenuiflorum&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=48GKB&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  },
+  {
+    "id": "thankuni",
+    "name": "Indian pennywort",
+    "bn": "থানকুনি",
+    "scientific": "Centella asiatica",
+    "icon": "☘️",
+    "kind": "nonrandomized",
+    "focus": "Post-stroke cognition in a small comparative study.",
+    "focusBn": "স্ট্রোকের পর জ্ঞানীয় ক্ষমতার ছোট তুলনামূলক গবেষণা।",
+    "finding": "A 2016 quasi-experimental study compared Centella extract with folic acid in 48 post-stroke patients over 6 weeks. Overall cognitive-score improvement did not differ significantly between groups [C1].",
+    "findingBn": "২০১৬ সালের কোয়াসি-এক্সপেরিমেন্টাল গবেষণায় স্ট্রোকের পর ৪৮ জন রোগীর মধ্যে থানকুনির নির্যাস ও ফলিক অ্যাসিড ৬ সপ্তাহ তুলনা করা হয়। সামগ্রিক জ্ঞানীয় স্কোরের উন্নতিতে দলগুলোর মধ্যে পরিসংখ্যানগত গুরুত্বপূর্ণ পার্থক্য পাওয়া যায়নি [C1]।",
+    "limitations": "Not a randomized placebo-controlled trial. Small groups, active comparator and short follow-up limit causal conclusions. No significant difference is not proof of equal effectiveness.",
+    "limitationsBn": "এটি র‍্যান্ডমাইজড প্লাসিবো-নিয়ন্ত্রিত পরীক্ষা নয়। ছোট দল, সক্রিয় তুলনাকারী ও স্বল্প অনুসরণকাল কার্যকারণ সিদ্ধান্ত সীমিত করে। গুরুত্বপূর্ণ পার্থক্য না পাওয়া সমান কার্যকারিতার প্রমাণ নয়।",
+    "study": {
+      "design": "Quasi-experimental comparative study",
+      "participants": 48,
+      "duration": "6 weeks",
+      "year": 2016,
+      "review_scope": "PubMed abstract; not full risk-of-bias assessment"
+    },
+    "sources": [
+      {
+        "id": "C1",
+        "title": "Farhana et al. (2016) — Centella extract after stroke",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27340413/",
+        "type": "Primary study",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G4",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=69GFK&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Centella asiatica",
+      "taxon_key": "69GFK",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Centella asiatica (L.) Urb.",
+      "match_type": "EXACT",
+      "count": 22,
+      "georeferenced_count": 20,
+      "retrieved_at": "2026-11-02T15:09:26.384Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=69GFK&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=69GFK&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Centella%20asiatica&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=69GFK&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  },
+  {
+    "id": "basak",
+    "name": "Malabar nut",
+    "bn": "বাসক",
+    "scientific": "Justicia adhatoda",
+    "icon": "🌱",
+    "kind": "taxonomy",
+    "focus": "Accepted botanical name and native distribution.",
+    "focusBn": "স্বীকৃত উদ্ভিদবৈজ্ঞানিক নাম ও প্রাকৃতিক বিস্তৃতি।",
+    "finding": "Kew Plants of the World Online accepts Justicia adhatoda L. and includes Bangladesh in its native distribution [B1]. This is a botanical statement, not evidence of treatment effectiveness.",
+    "findingBn": "Kew Plants of the World Online-এ Justicia adhatoda L. স্বীকৃত নাম এবং এর প্রাকৃতিক বিস্তৃতিতে বাংলাদেশ রয়েছে [B1]। এটি উদ্ভিদবিজ্ঞানের তথ্য, চিকিৎসার কার্যকারিতার প্রমাণ নয়।",
+    "limitations": "No clinical study has been assessed for this record. This selection is not evidence that no studies exist. Cough-treatment claims, pregnancy safety and preparation-specific effects remain outside this record.",
+    "limitationsBn": "এই রেকর্ডের জন্য কোনো ক্লিনিক্যাল গবেষণা মূল্যায়ন করা হয়নি; এর অর্থ গবেষণা নেই এমন নয়। কাশির চিকিৎসা, গর্ভাবস্থায় নিরাপত্তা ও নির্দিষ্ট প্রস্তুতির ফল এই রেকর্ডে প্রতিষ্ঠিত নয়।",
+    "study": {
+      "design": "Botanical reference; no clinical study reviewed",
+      "participants": null,
+      "duration": null,
+      "year": null,
+      "review_scope": "Kew accepted-name and distribution entry"
+    },
+    "sources": [
+      {
+        "id": "B1",
+        "title": "Royal Botanic Gardens, Kew — Justicia adhatoda",
+        "url": "https://powo.science.kew.org/taxon/50237-1",
+        "type": "Taxonomy reference",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G5",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=3QVT8&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Justicia adhatoda",
+      "taxon_key": "3QVT8",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Justicia adhatoda L.",
+      "match_type": "EXACT",
+      "count": 9,
+      "georeferenced_count": 1,
+      "retrieved_at": "2026-11-02T15:09:27.367Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=3QVT8&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=3QVT8&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Justicia%20adhatoda&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=3QVT8&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  },
+  {
+    "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "bn": "অশ্বগন্ধা",
+    "scientific": "Withania somnifera",
+    "icon": "🌾",
+    "kind": "rct",
+    "focus": "Anxiety measures in a selected stressed-adult trial.",
+    "focusBn": "মানসিক চাপ থাকা প্রাপ্তবয়স্কদের উদ্বেগের পরিমাপ।",
+    "finding": "A 2019 randomized placebo-controlled study in 60 stressed adults over 60 days found a between-group improvement on HAM-A anxiety scores (p=0.040), while the DASS-21 between-group result was not statistically significant (p=0.096) [A1].",
+    "findingBn": "২০১৯ সালের প্লাসিবো-নিয়ন্ত্রিত গবেষণায় মানসিক চাপ থাকা ৬০ জনকে ৬০ দিন পর্যবেক্ষণ করা হয়। HAM-A উদ্বেগ স্কোরে দলগত পার্থক্য গুরুত্বপূর্ণ ছিল (p=০.০৪০), তবে DASS-21-এ তা গুরুত্বপূর্ণ ছিল না (p=০.০৯৬) [A1]।",
+    "limitations": "Small, short, product-specific trial; not proof for all preparations. NIH ODS describes limited long-term safety knowledge, possible liver injury and thyroid concerns, and advises avoiding use in pregnancy [A2].",
+    "limitationsBn": "ছোট, স্বল্পমেয়াদি ও নির্দিষ্ট পণ্যের গবেষণা; সব প্রস্তুতির প্রমাণ নয়। NIH ODS দীর্ঘমেয়াদি নিরাপত্তার সীমিত তথ্য, সম্ভাব্য যকৃতের ক্ষতি ও থাইরয়েডের উদ্বেগ উল্লেখ করে এবং গর্ভাবস্থায় ব্যবহার এড়াতে বলে [A2]।",
+    "study": {
+      "design": "Randomized double-blind placebo-controlled trial",
+      "participants": 60,
+      "duration": "60 days",
+      "year": 2019,
+      "review_scope": "Published abstract plus NIH ODS overview; not a systematic review"
+    },
+    "sources": [
+      {
+        "id": "A1",
+        "title": "Lopresti et al. (2019) — ashwagandha extract and stress",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31517876/",
+        "type": "Primary study",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "A2",
+        "title": "NIH ODS — ashwagandha evidence and safety",
+        "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "type": "Government overview",
+        "accessed": "2026-11-02"
+      },
+      {
+        "id": "G6",
+        "title": "GBIF — Bangladesh occurrence-count snapshot",
+        "url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=5C2KB&occurrenceStatus=present",
+        "type": "Biodiversity database",
+        "accessed": "2026-11-02"
+      }
+    ],
+    "biodiversity": {
+      "name": "Withania somnifera",
+      "taxon_key": "5C2KB",
+      "checklist_key": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "matched_name": "Withania somnifera (L.) Dunal",
+      "match_type": "EXACT",
+      "count": 1,
+      "georeferenced_count": 0,
+      "retrieved_at": "2026-11-02T15:09:28.169Z",
+      "query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=5C2KB&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&limit=0",
+      "georeferenced_query_url": "https://api.gbif.org/v1/occurrence/search?country=BD&taxonKey=5C2KB&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b&occurrenceStatus=PRESENT&hasCoordinate=true&hasGeospatialIssue=false&limit=0",
+      "match_url": "https://api.gbif.org/v2/species/match?scientificName=Withania%20somnifera&checklistKey=7ddf754f-d193-4cc9-b351-99906754a03b",
+      "portal_url": "https://www.gbif.org/occurrence/search?country=BD&taxonKey=5C2KB&occurrenceStatus=present",
+      "interpretation": "Indexed occurrence records, not plant abundance, population size, native status or conservation risk. Counts may include cultivated plants, duplicate records and uneven sampling. Zero records does not establish absence."
+    },
+    "accessed": "2026-11-02",
+    "conservation": "No conservation assessment inferred. Occurrence counts are not population estimates.",
+    "provenance": "AI-assisted paraphrase checked against the linked source. Targeted source selection, not a systematic review or clinical validation. No community-contributed traditional knowledge or consent claims."
+  }
+]

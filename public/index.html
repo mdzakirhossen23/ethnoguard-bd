@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102c27">
+  <meta name="description" content="EthnoGuard BD — an evidence-aware medicinal plant and biodiversity research prototype for EthnoHack 2026.">
+  <title>EthnoGuard BD</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='15' width='64' height='64' fill='%23102c27'/%3E%3Cpath d='M15 43C18 19 41 12 51 13c-1 20-10 35-30 34 8-8 15-14 25-26-13 10-21 17-31 22z' fill='%237ce0a3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="window.css">
+<style>.plant-card:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ffe082;outline-offset:3px}@media(max-width:600px){.window-tools{flex-wrap:wrap}.window-bar{height:auto!important;min-height:50px}.controls{flex-wrap:wrap}.search{min-width:0;width:100%}.dialog-content{padding:16px!important}.detail-grid{grid-template-columns:1fr!important}}</style><style>/* Scenario cards contain one content column. */
+#view-map .risk-list article{display:block;grid-template-columns:minmax(0,1fr)}
+#view-map .risk-list article>div{width:100%;min-width:0}
+#view-map .risk-list article b,#view-map .risk-list article p{max-width:none;overflow-wrap:break-word}
+</style></head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <main class="app-shell" id="appShell">
+    <header class="window-bar">
+      <div class="brand-mini"><span class="brand-mark">⌁</span><strong>EthnoGuard BD</strong><span class="prototype">RESEARCH PROTOTYPE</span></div>
+      <div class="window-tools"><span id="windowSize">1200 × 700</span><button class="language active" data-lang="en">English</button><button class="language" data-lang="bn">বাংলা</button><button class="language" data-lang="ar">العربية</button><button class="language" data-lang="nl">Nederlands</button><button class="language" data-lang="de">Deutsch</button><button id="normalBtn" aria-label="Normal size">▣ Normal</button><button id="maxBtn" aria-label="Maximize">□ Max</button><button id="closeBtn" aria-label="Close preview">× Close</button></div>
+    </header>
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="identity"><div class="leaf-logo">🌿</div><div><b>EthnoGuard</b><small data-i18n="tagline">Knowledge with care</small></div></div>
+        <nav>
+          <button class="nav-item active" data-view="explore"><span>⌕</span><span data-i18n="explore">Explore plants</span></button>
+          <button class="nav-item" data-view="map"><span>◉</span><span data-i18n="map">Bangladesh data</span></button>
+          <button class="nav-item" data-view="method"><span>⌁</span><span data-i18n="method">Method & ethics</span></button>
+          <button class="nav-item" data-view="sources"><span>↗</span><span data-i18n="sources">Sources</span></button>
+        </nav>
+        <div class="track-card"><small>ETHNOHACK 2026</small><b data-i18n="track">Track: Biodiversity & Sustainability</b><p data-i18n="trackDesc">Connecting traditional knowledge with evidence and conservation.</p></div>
+        <div class="status"><i></i><span >Online prototype — offline reload not supported</span></div>
+      </aside>
+      <section class="content">
+        <div class="content-scroll">
+          <section class="view active" id="view-explore">
+            <div class="hero">
+              <div><p class="eyebrow" data-i18n="eyebrow">BANGLADESH MEDICINAL PLANT INTELLIGENCE</p><h1 data-i18n="heroTitle">Respect knowledge.<br><em>Protect biodiversity.</em></h1><p data-i18n="heroText">Explore traditional-use records beside evidence quality, uncertainty and sustainable-harvest guidance.</p></div>
+              <div class="hero-score"><span data-i18n="coverage">CURATED CORPUS</span><strong>6</strong><small data-i18n="species">sourced plant records</small><div class="ring" aria-hidden="true"></div></div>
+            </div>
+            <div class="notice"><span>⚕</span><div><b data-i18n="notMedical">Not medical advice</b><p data-i18n="noticeText">Traditional use is not proof of safety or effectiveness. Consult qualified professionals and primary research.</p></div><button id="learnEthics" data-i18n="learn">Read method</button></div>
+            <div class="controls">
+              <label class="search"><span>⌕</span><input aria-label="Search plants" id="searchInput" type="search" placeholder="Search name, scientific name or traditional use…" autocomplete="off"></label>
+              <select id="regionFilter" aria-label="Region"><option value="all">All regions</option><option>Central</option><option>North</option><option>East</option><option>South</option><option>Nationwide</option></select>
+              <select id="evidenceFilter" aria-label="Evidence"><option value="all">All evidence</option><option value="strong">Strong</option><option value="moderate">Moderate</option><option value="limited">Limited</option></select>
+            </div>
+            <div class="result-head"><div><b aria-live="polite" id="resultCount">6 records</b><span >Unvalidated demo: all evidence scores and regions illustrative</span></div><button id="sortBtn">Evidence ↓</button></div>
+            <div class="plant-grid" id="plantGrid"></div>
+          </section>
+
+          <section class="view" id="view-map"><div class="section-title"><p class="eyebrow">Harvest scenarios</p><h2>Explore collection scenarios</h2><p>Qualitative examples for discussion. These are not measured regional risks or conservation assessments.</p></div><div class="risk-list"><article><div><b>Root and bark collection</b><p>Consider the effect of removing roots or bark, the source of the material and recovery time. Field observations are required before assessing pressure.</p></div></article><article><div><b>Wild collection in sensitive habitats</b><p>Consider habitat condition, collection frequency and local knowledge. No occurrence or habitat dataset is integrated into this prototype.</p></div></article><article><div><b>Cultivation and traceability</b><p>Explore cultivated supply and documented sourcing. A lower impact cannot be assumed without comparing local practices and outcomes.</p></div></article><div class="formula"><h3>Data needed for an assessment</h3><p>Verified species identity, licensed occurrence records, collection observations, habitat information and a documented validation method. No numerical pressure scores are reported.</p></div></div></section>
+
+          <section class="view" id="view-method">
+            <div class="section-title"><p class="eyebrow">RESPONSIBLE RESEARCH</p><h2 data-i18n="methodTitle">How EthnoGuard handles knowledge</h2><p data-i18n="methodText">Every record separates cultural report, scientific evidence and inference.</p></div>
+            <div class="method-grid"><article><span>01</span><h3 data-i18n="m1">Provenance first</h3><p data-i18n="m1d">Keep source, place, community context and access restrictions attached to every claim.</p></article><article><span>02</span><h3 data-i18n="m2">Evidence, not endorsement</h3><p data-i18n="m2d">Study type, replication, sample quality and relevance require review. This demo does not assign evidence scores.</p></article><article><span>03</span><h3 data-i18n="m3">Uncertainty visible</h3><p data-i18n="m3d">Show missing toxicity, dosage and interaction data instead of hiding gaps.</p></article><article><span>04</span><h3 data-i18n="m4">Community rights</h3><p data-i18n="m4d">Flag sensitive knowledge and support consent, attribution and benefit-sharing.</p></article></div>
+            <div class="ai-disclosure"><b>AI disclosure</b><p data-i18n="aiText">This prototype was AI-assisted. Plant records are demonstration summaries and must be validated against primary literature before research or policy use.</p></div>
+          </section>
+
+          <section class="view" id="view-sources">
+            <div class="section-title"><p class="eyebrow">RESEARCH STARTING POINTS</p><h2 data-i18n="sourceTitle">Data source registry</h2><p data-i18n="sourceText">Links below are authoritative starting points; this demo does not redistribute restricted traditional knowledge.</p></div>
+            <div class="source-list"><a href="https://powo.science.kew.org/" target="_blank" rel="noreferrer"><span>POWO</span><div><b>Plants of the World Online</b><p>Taxonomy and accepted plant names · Royal Botanic Gardens, Kew</p></div><i>↗</i></a><a href="https://www.gbif.org/" target="_blank" rel="noreferrer"><span>GBIF</span><div><b>Global Biodiversity Information Facility</b><p>Open species occurrence data with record-level licences</p></div><i>↗</i></a><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noreferrer"><span>PM</span><div><b>PubMed</b><p>Primary biomedical literature and review discovery</p></div><i>↗</i></a><a href="https://www.iucnredlist.org/" target="_blank" rel="noreferrer"><span>IUCN</span><div><b>IUCN Red List</b><p>Authoritative global conservation assessments</p></div><i>↗</i></a></div>
+          </section>
+        </div>
+        <footer><span><i></i> Prototype online</span><span>EthnoHack 2026 · Team MD Zakir Hossain & MD Bahauddin</span><span>© 2026 BaharSoftBD</span></footer>
+      </section>
+    </div>
+  </main>
+  <button id="restoreLauncher" hidden>🌿 Open EthnoGuard BD</button>
+  <i class="resize-handle n" data-resize="n"></i><i class="resize-handle e" data-resize="e"></i><i class="resize-handle s" data-resize="s"></i><i class="resize-handle w" data-resize="w"></i><i class="resize-handle ne" data-resize="ne"></i><i class="resize-handle se" data-resize="se"></i><i class="resize-handle sw" data-resize="sw"></i><i class="resize-handle nw" data-resize="nw"></i>
+  <dialog aria-label="Plant demonstration record" id="plantDialog"><button class="dialog-close" aria-label="Close">×</button><div id="dialogBody"></div></dialog>
+  <script src="app.js?v=20261102-research2"></script>
+  <script src="english-fix.js"></script>
+  <script src="markdown.js?v=20261102-md1"></script>
+  <script src="ai.js?v=20261102-research1"></script>
+</body>
+</html>
+

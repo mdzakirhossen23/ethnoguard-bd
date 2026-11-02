@@ -1,0 +1,71 @@
+EthnoGuard BD — source-linked research pilot
+Checked: 2 November 2026 (Asia/Dhaka)
+
+WHAT IS REAL
+Six source-linked plant records: four randomized trials, one quasi-experimental
+study, and one botanical reference. Two government evidence/safety overviews
+provide additional context. Six dated GBIF API queries supply Bangladesh counts.
+Every record includes original source URLs, source type, access date, study scope,
+selected findings and explicit limitations. English and Bangla summaries are
+AI-assisted paraphrases checked against the linked content, not expert certification.
+
+WHAT IS NOT CLAIMED
+This is a targeted source selection, not a systematic review or formal risk-of-bias
+assessment. Abstract-based summaries are identified. It is not clinically validated,
+medical advice, an exhaustive literature search, or a conservation assessment.
+No community-provided knowledge, consent or benefit-sharing arrangement is claimed.
+No dosage recommendations are generated. Source findings are preparation-specific.
+
+BIODIVERSITY METHOD
+Run node refresh-gbif.cjs from the source-bundle folder to repeat the public
+requests. Then run node build-research.cjs to rebuild ai-records.json. Requires
+Node 18+ with fetch. Clinical summaries and their review dates require manual
+source review before updating; the script does not search clinical literature.
+The script requires an EXACT SPECIES match from GBIF's v2 species/match API with
+the Catalogue of Life checklist (7ddf754f-d193-4cc9-b351-99906754a03b). It uses
+the accepted alphanumeric usage key, explicit checklistKey, country BD,
+occurrenceStatus PRESENT and limit 0. Website links use that same current
+taxonKey; legacy numeric backbone IDs must not be passed to the current portal.
+The georeferenced subset additionally filters hasCoordinate=true and
+hasGeospatialIssue=false. Saved counts: neem 27/21; turmeric 16/7; holy basil 23/17;
+Centella 22/20; Malabar nut 9/1; ashwagandha 1/0 (all/filtered georeferenced).
+Counts are indexed records, not plants, populations or threat status. They can
+include duplicates, cultivated plants and sampling bias. Zero does not prove absence.
+Only aggregate counts and query metadata are redistributed. GBIF.org and the
+original data publishers are credited via the query/portal links. Underlying
+occurrence records remain subject to their individual dataset licences.
+
+SOURCE REUSE
+Plant summaries are short original paraphrases, not copied articles or abstracts.
+Linked papers, botanical entries and their original content retain their respective
+rights. No full text, paywalled material or images are redistributed. Government
+overviews are attributed to NCCIH and NIH ODS. Vendored Marked and DOMPurify licences
+are included in markdown-LICENSE.txt.
+
+AI DESIGN
+Groq receives the question and the selected corpus via the server-side ai.php proxy.
+No live web search is performed. Output uses JSON answer/source_ids fields. Source
+identifiers are validated against the corpus before returning an answer. Valid
+citations do not prove that every model statement is entailed; expert checking is
+still needed. Model output is rendered with Marked and sanitized with DOMPurify.
+Questions are not logged by application code. Quota state uses a keyed hash of the
+request IP, without saving question text or raw IPs. Groq's own terms apply.
+
+CONFIGURATION
+Keep the key ONLY at /home/baharsof/ethnoguard-private/config.php, mode 0600,
+or in GROQ_API_KEY. Do not put it in public files or source control. The example
+config shipped in this bundle is empty and contains no live credentials.
+Default global cap is 40 attempted requests/day (UTC); each client is limited to
+12/day and 4/minute. Failed calls count toward the cap. Full public abuse and
+load testing has not been completed.
+
+VALIDATION
+Source identifiers resolve to linked metadata; all GBIF subset counts are no larger
+than totals. Live study-type filters return 4 randomized records and 1 nonrandomized
+record. The georeferenced filter returns 5 plants. Mobile viewport 390x844 has no
+document horizontal overflow; the plant dialog fits within 352 pixels. AI tests
+cover cited findings, non-significance versus equivalence, and occurrence counts
+versus conservation status. These checks do not constitute clinical or security
+certification. Independent domain review and broader accessibility/security testing
+remain outstanding.
+

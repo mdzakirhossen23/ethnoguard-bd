@@ -1,0 +1,10 @@
+.private/
+ethnoguard-private/
+config.php
+quota.json
+.env
+.env.*
+!config.example.php
+node_modules/
+*.log
+
